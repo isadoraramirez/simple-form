@@ -512,7 +512,22 @@
 
 	<div id="dropDownSelect1"></div>
 
-
+   <!--validar región==========================================================================-->
+   <script>
+	   
+	function postal_code() {
+		var input = document.getElementById('field-postal');
+		var options = {
+		  types: ['(postal_code)'],
+		  componentRestrictions: {
+			country: "in"
+		  }
+		}
+		var autocomplete = new google.maps.places.Autocomplete(input, options);
+	  }
+	  
+	  google.maps.event.addDomListener(window, 'load', postal_code);
+	</script>
 	<!--validar archivos cargados==========================================================================-->
 	<script>
 		document.getElementById("btnLoad").addEventListener("click", function showFileSize() {
