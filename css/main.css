@@ -212,11 +212,18 @@ iframe {
   text-align: center;
 }
 
+
 /*------------------------------------------------------------------
 [ Input ]*/
 
 .wrap-input100 {
   width: 100%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.wrap-select{
+  width: 50%;
   position: relative;
   background-color: #fff;
   border-radius: 20px;
@@ -233,6 +240,36 @@ iframe {
   height: 62px;
   background: transparent;
   padding: 0 20px 0 23px;
+}
+.input100-text{
+  font-family: SourceSansPro-Bold;
+  font-size: 16px;
+  color: #4b2354;
+  padding-left:20px;
+}
+.input100-select {
+  border: 0;
+  font-family: SourceSansPro-Bold;
+  font-size: 16px;
+  color: #4b2354;
+  background: transparent;
+  line-height: 1.2;
+
+  width: 30%;
+  height: 62px;
+  padding: 0 20px 0 23px;
+
+  border-radius: 20px;
+  box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 
