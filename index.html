@@ -518,7 +518,7 @@
 	function postal_code() {
 		var input = document.getElementById('field-postal');
 		var options = {
-		  types: ['(postal_code)'],
+		  types: ['(regions)'],
 		  componentRestrictions: {
 			country: "in"
 		  }
@@ -526,7 +526,7 @@
 		var autocomplete = new google.maps.places.Autocomplete(input, options);
 	  }
 	  
-	  google.maps.event.addDomListener(window, 'load', postal_code);
+	  google.maps.event.addDomListener(window, 'load', regions);
 	</script>
 	<!--validar archivos cargados==========================================================================-->
 	<script>
